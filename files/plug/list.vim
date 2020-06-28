@@ -2,8 +2,8 @@
 " 插件列表
 " ==================================================
 
-" 在 $HOME/.config/Manual/vim-plug-data 下安裝插件
-call plug#begin('$HOME/.config/Manual/vim-plug-data')
+" 在 $HOME/.config/Manual/vim-plugin 下安裝插件
+call plug#begin('$HOME/.config/Manual/vim-plugin')
 
 " --------------------------------------------------
 " 輕鬆編輯
