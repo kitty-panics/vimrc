@@ -3,7 +3,7 @@
 " ==================================================
 
 " 在 $HOME/.config/Manual/vim-plugin 下安裝插件
-call plug#begin('$HOME/.config/Manual/vim-plugin')
+call plug#begin('$HOME/.config/USER-PKG/Vim-Plugin')
 
 " --------------------------------------------------
 " 輕鬆編輯

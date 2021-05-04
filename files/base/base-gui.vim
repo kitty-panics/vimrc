@@ -19,7 +19,7 @@ endif
 
 if has("win64") || has("win32") && has("gui")
     " 字体配置
-    set guifont=DejaVuSansMono_Nerd_Font:h15,Consolas:h15
+    set guifont=JetBrainsMono_Nerd_Font_Mono:h14,Consolas:h14
 
     " 启动时窗口最大化
     au GUIEnter * simalt ~x
@@ -27,5 +27,5 @@ if has("win64") || has("win32") && has("gui")
     " 启动时窗口透明
     hi Normal ctermfg=252 ctermbg=none
 else
-    set guifont=DejaVuSansMono\ Nerd\ Font\ 15,Consolas\ 15
+    set guifont=JetBrainsMono\ Nerd\ Font\ Mono\ 14,Consolas\ 14
 endif
