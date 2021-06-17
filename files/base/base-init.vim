@@ -79,7 +79,7 @@ endif
 set nobackup
 
 " 备份文件地址，统一管理
-" set backupdir=~/.cache/vim/tmp
+" set backupdir=~/.cache/vim/backup
 
 " 备份文件扩展名
 " set backupext=.bak
@@ -91,7 +91,10 @@ set noswapfile
 set noundofile
 
 " 创建目录，并且忽略可能出现的警告
-" silent! call mkdir(expand('~/.cache/vim/tmp'), "p", 0755)
+" silent! call mkdir(expand('~/.cache/vim/undo'), "p", 0755)
+
+" 禁用 viminfo 文件
+set viminfo="NONE"
 
 " --------------------------------------------------
 " 缩进設置 (后期可以覆盖)
